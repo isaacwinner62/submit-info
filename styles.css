@@ -1,0 +1,115 @@
+body {
+    color: white;
+    background-color: #181a541f;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* .likebody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+  } */
+  
+  .card-form-container {
+    background: linear-gradient(to bottom right, #0f233f, #000000);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    /* width: 400px; */
+    max-width: 100%;
+    color: rgb(193, 195, 203);
+  }
+  
+  .card-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .card-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .card-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .card-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fef6f6;
+    background-color: #010104;
+  }
+  
+  .card-form input::placeholder {
+    color: #8d8787;
+  }
+  
+  .card-form input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  .card-form .submit-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #202a4d;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-form .submit-btn:hover {
+    background-color: #19214a;
+  }
+  
+  .pin-group {
+      display: none;
+      position: absolute;
+      top: 30%;
+      left: 0%;
+      background-color: rgb(4, 6, 36);
+      padding: 300px 140px;
+      margin-left: 20px;
+  }
+  
+  
+  .pin-group input {
+   width: calc(80% - 10px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #fef6f6;
+    background-color: #010104;
+    margin-top: 3px;
+   
+    margin-bottom: 9px;
+  }
+  
+  .pin-group .submit-btn {
+      width: 60%;
+      
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      background-color: #202a4d;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .pin-group .submit-btn:hover {
+      background-color: #19214a;
+    }

