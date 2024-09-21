@@ -74,9 +74,9 @@ body {
   }
   
   .pin-group {
-      display: none;
+      /* display: none; */
       position: absolute;
-      top: 30%;
+      top: 0%;
       left: 0%;
       background-color: rgb(4, 6, 36);
       padding: 300px 140px;
